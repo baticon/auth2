@@ -1,0 +1,22 @@
+{
+  "name": "auth2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -p 3000",
+    "build": "parcel build *.html",
+    "eslint": "eslint js/**.js",
+    "stylelint": "stylelint 'style/**.css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "parcel": "^2.5.0",
+    "stylelint": "^14.8.3"
+  }
+}
+
